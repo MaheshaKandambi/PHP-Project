@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 /* General Styles */
 
 body{
@@ -61,6 +63,8 @@ body{
 
 
 
+
+
 /* Header Styles */
 
 .navbar{
@@ -116,6 +120,7 @@ body{
     margin-bottom: 40px;
 }
 
+
 /* advantages Styles */
 
 #advantages{
@@ -129,6 +134,7 @@ body{
     padding: 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
 }
+
 #advantages .box:hover{
     transform: scale(1.1);
 }
@@ -151,7 +157,12 @@ body{
     font-weight: 300;
     text-transform: uppercase;
     z-index: 2;
+    font-family: 'Acme', sans-serif;
 }
+#advantages .box h2{
+    font-family: 'Acme', sans-serif;
+}
+
 #advantages .box h3 a{
     color: #4fbfa8;
 
@@ -163,7 +174,17 @@ body{
     position: relative;
     z-index: 2;
     color: #555555;
+    font-family: 'Lobster', cursive;
 }
+
+@media(max-width: 768px){
+    .card-img{
+        width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+    }
+
 
 /* Latest Products Styles */
 
@@ -173,6 +194,7 @@ body{
     color: #4fbfa8;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Acme', sans-serif;
 }
 #content{
    padding-left: 25px; 
@@ -215,6 +237,26 @@ body{
 #content .product .text h3 a{
     color: rgb(85, 85, 85);
 }
+
+
+/*  Products Categories & Categories Styles */
+#content .panel.sidebar-menu{
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+}
+#content .panel.sidebar-menu ul.nav.category-menu{
+    margin-bottom: 20px;
+}
+#content .panel.sidebar-menu ul.nav.category-menu li a{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#content .panel.sidebar-menu h3{
+    padding: 5px 0px;
+    margin: 0px;
+}
+
+
 
 /*  Footer Styles  */
 
@@ -267,3 +309,4 @@ body{
 #copyright p{
     margin: 0px;
 }
+

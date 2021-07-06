@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css">
     <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"> -->
-    <link rel="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- <link rel="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
 </head>
 <body>
    
@@ -88,8 +88,9 @@
                        <li class="active">
                            <a href="index.php">Home</a>
                        </li>
-                       <li>
+                       <!-- <li>
                            <a href="shop.php">Shop</a>
+                       </li> -->
                        <li>
                            <a href="checkout.php">My Account</a>
                        </li>
@@ -217,73 +218,120 @@
        
    </div><!-- container Finish -->
 
+<!-- ------------------------------------------------------------------------------------------------------- -->
+
    <div id="advantages"><!-- #advantages Begin -->
        
-       <div class="container"><!-- container Begin -->
-           
-           <div class="same-height-row"><!-- same-height-row Begin -->
-               
-               <div class="col-sm-4"><!-- col-sm-4 Begin -->
-                   
+      <div class="container"><!-- container Begin -->
+            
+                <div class="col-sm-6"><!-- col-sm-4 Begin -->            
                    <div class="box same-height"><!-- box same-height Begin -->
-                       
-                       <div class="icon"><!-- icon Begin -->
-                           
-                           <i class="fa fa-gift"></i>
-                           
-                       </div><!-- icon Finish -->
-                       
-                       <h3><a href="#">Choco gift Packs</a></h3>
-                       
-                       <p>Gifts for any occasion</p>
-                       
-                   </div><!-- box same-height Finish -->
-                   
+                     <div class="card">
+                      <h2 class="card-header" style="color:rgb(65, 179, 156)" >CHOCOLATE</h2>
+                     </div>
+                     </br>
+                   <div class="card bg-dark text-white">
+                        <img class="card-img" src="images/img_1.jpg" alt="Card image" width="500px" height="350px"></br></br>
+                      <div class="card-img-overlay">
+                        <p class="card-text" style="font-size:25px" >The best chocolate you have ever tasted.All chocolates are imported from the UK/Europe only.</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                      </div>
+                   </div>
+
+                   </div><!-- box same-height Finish -->              
+                </div><!-- col-sm-4 Finish -->
+
+
+               <div class="col-sm-6"><!-- col-sm-4 Begin -->        
+                 <div class="box same-height"><!-- box same-height Begin -->
+                   <div class="card">
+                       <h2 class="card-header" style="color:rgb(65, 179, 156)" >CHOCOLATE CAKE</h2>
+                  </div>
+                  </br>
+                   <div class="card bg-dark text-white">
+                         <img class="card-img" src="images/img_2.png" alt="Card image" width="500px" height="385px"></br></br>
+                   <div class="card-img-overlay">
+                         <p class="card-text" style="font-size:25px" >Premium chocolate cakes for every occasion!</p>
+                           <a href="#" class="btn btn-primary">Shop Now</a>
+                   </div>
+                   </div>
+                 </div><!-- box same-height Finish -->     
+               </div><!-- col-sm-4 Finish -->
+
+
+               <div class="col-sm-4"><!-- col-sm-4 Begin -->
+                 <div class="box same-height"><!-- box same-height Begin -->
+                     <div class="card">
+                        <h2 class="card-header" style="color:rgb(65, 179, 156)" >Island wide Shipping</h2>
+                     </div>
+                     </br>
+                   <div class="card bg-dark text-white">
+                       <img class="card-img" src="images/gif_1.gif" alt="Card image" width="300px" height="250px">
+                   <div class="card-img-overlay"></br>
+                       <p class="card-text" style="font-size:25px" >we will endeavour to deliver your order in a timely manner anywhere in every time.</br></br>Islandwide delivery in 2-3 working days.</br></br>Contact Us For more details...</p>
+                   </div>
+                   </div>
+                 </div><!-- box same-height Finish -->      
+               </div><!-- col-sm-4 Finish -->
+
+
+               <div class="col-sm-8"><!-- col-sm-4 Begin -->    
+                   <div class="box same-height"><!-- box same-height Begin -->
+                      <div class="card">
+                        <h2 class="card-header" style="color:rgb(65, 179, 156)" >CHOCOLATE ICE </br>CREAM</h2>
+                      </div>
+                      </br>
+                      <div class="card bg-dark text-white">
+                        <img class="card-img" src="images/img_7.jpg" alt="Card image" width="675px" height="400px">
+                      <div class="card-img-overlay"></br>
+                         <p class="card-text" style="font-size:25px" >Unique ice cream for unique tastes. Something new something different all thing is new and all things wonderful.</p>
+                         <a href="#" class="btn btn-primary">Shop Now</a>
+                      </div>
+                      </div>
+                   </div><!-- box same-height Finish -->      
+               </div><!-- col-sm-4 Finish -->
+
+
+               <div class="col-sm-6"><!-- col-sm-4 Begin -->
+                   <div class="box same-height"><!-- box same-height Begin -->
+                      <div class="card">
+                        <h2 class="card-header" style="color:rgb(65, 179, 156)" >Chocolate Chip Cookies</h2>
+                      </div>
+                      </br>
+                      <div class="card bg-dark text-white">
+                           <img class="card-img" src="images/img_10.jpg" alt="Card image" width="500px" height="385px"></br></br>
+                      <div class="card-img-overlay">
+                           <p class="card-text" style="font-size:25px" >Enjoy the freshness of cookies! Unique taste experience</p>
+                           <a href="#" class="btn btn-primary">Shop Now</a>
+                     </div>
+                     </div>
+                   </div><!-- box same-height Finish -->   
+               </div><!-- col-sm-4 Finish -->
+
+
+               <div class="col-sm-6"><!-- col-sm-4 Begin -->
+                   <div class="box same-height"><!-- box same-height Begin -->
+                      <div class="card">
+                        <h2 class="card-header" style="color:rgb(65, 179, 156)" >Chocolate Pudding</h2>
+                      </div>
+                      </br>
+                      <div class="card bg-dark text-white">
+                         <img class="card-img" src="images/img_9.jpg" alt="Card image" width="500px" height="385px"></br></br>
+                      <div class="card-img-overlay">
+                          <p class="card-text" style="font-size:25px" >Delicious Chocolate pudding, so yummy it will melt your heart...</p>
+                          <a href="#" class="btn btn-primary">Shop Now</a>
+                      </div>
+                      </div>
+                   </div><!-- box same-height Finish -->    
                </div><!-- col-sm-4 Finish -->
                
-               <div class="col-sm-4"><!-- col-sm-4 Begin -->
-                   
-                   <div class="box same-height"><!-- box same-height Begin -->
-                       
-                       <div class="icon"><!-- icon Begin -->
-                           
-                           <i class="fa fa-car" style="font-size:80px"></i>
-                           
-                       </div><!-- icon Finish -->
-                       
-                       <h3><a href="#">Islandwide Shipping</a></h3>
-                       
-                       <p>Islandwide delivery in 2-3 working days</p>
-                       
-                   </div><!-- box same-height Finish -->
-                   
-               </div><!-- col-sm-4 Finish -->
-               
-               <div class="col-sm-4"><!-- col-sm-4 Begin -->
-                   
-                   <div class="box same-height"><!-- box same-height Begin -->
-                       
-                       <div class="icon"><!-- icon Begin -->
-                           
-                           <i class="fa fa-thumbs-up"></i>
-                           
-                       </div><!-- icon Finish -->
-                       
-                       <h3><a href="#">100% Money Back</a></h3>
-                       
-                       <p>If you're not satisfied</p>
-                       
-                   </div><!-- box same-height Finish -->
-                   
-               </div><!-- col-sm-4 Finish -->
-               
-           </div><!-- same-height-row Finish -->
            
        </div><!-- container Finish -->
        
    </div><!-- #advantages Finish -->
+   
 
-
+<!-- ************************************************************************************************8*************************************** -->
    
    <div id="hot"><!-- #hot Begin -->
        
@@ -626,13 +674,13 @@
                    </div><!-- text Finish -->
                    
                </div><!-- product Finish -->
-               
+        
            </div><!-- col-sm-4 col-sm-6 single Finish -->
-           
-       </div><!-- row Finish -->
-       
-   </div><!-- container Finish -->
-    
+
+   </div><!--container Finish-->
+
+</div><!-- row Finish -->
+
    <?php 
     
     include("includes/footer.php");
@@ -641,9 +689,9 @@
     
     <script src="js/jquery-331.min.js"></script>
     <script src="js/bootstrap-337.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
-    
+     -->
     
 </body>
 </html>
